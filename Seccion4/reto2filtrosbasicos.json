@@ -1,0 +1,15 @@
+
+{
+ name: 'Greg Powell'
+}
+
+{
+ $or: [
+  {
+   name: 'Greg Powell'
+  },
+  {
+   name: 'Mercedes Tyler'
+  }
+ ]
+}

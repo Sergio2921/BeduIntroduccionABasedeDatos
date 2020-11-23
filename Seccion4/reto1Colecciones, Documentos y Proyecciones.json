@@ -1,0 +1,17 @@
+{
+ name: 1,
+ date: 1,
+ text: 1,
+ _id: 0
+}
+{
+ title: 1,
+ cast: 1,
+ year: 1,
+ _id: 0
+}
+{
+ name: 1,
+ password: 1,
+ _id: 0
+}
