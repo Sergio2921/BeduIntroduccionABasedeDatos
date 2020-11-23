@@ -1,0 +1,4 @@
+{house_rules:/no Part[iesy]/i}
+{house_rules: /(?! n[ot] pets allowed ) /i}
+{house_rules: /No Smoking/i}
+{house_rules: /No Smoking|No Parties/i}
