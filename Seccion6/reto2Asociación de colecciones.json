@@ -1,0 +1,16 @@
+[{$lookup: {
+  from: 'users',
+  localField: 'name',
+  foreignField: 'name',
+  as: 'usuario'
+}
+}, {$addFields: {
+  usuario_objeto: {$arrayElemAt: ["$usuario", 0]}
+}}, {$addFields: {
+ contrausuario:"$usuario_objeto.password"
+}}, {$project: {
+  name:1,
+  email:1,
+  contrausuario:1,
+  _id:0
+}}]
